@@ -1,0 +1,14 @@
+# Exported from Render on 2024-05-09T16:52:41Z
+services:
+- type: web
+  name: skyitonline
+  runtime: node
+  repo: https://github.com/Ajioz/skyitonline
+  plan: free
+  region: frankfurt
+  buildCommand: yarn
+  startCommand: node server.js
+  domains:
+  - skyitonline.org
+  - www.skyitonline.org
+version: "1"
