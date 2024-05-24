@@ -104,4 +104,4 @@ app.post('/', (req, res) => {
 
 let port = process.env.PORT || 2001;
 
-app.listen(port, () =>  log(`Server communicating on port ${port}...`));
+app.listen(port, () =>  log(`Server listening on http://127.0.0.1:${port}`));
