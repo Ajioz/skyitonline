@@ -60,10 +60,6 @@ app.get('/about', (req, res) => {
     res.render('about')
 })
 
-//Get Gallery Page
-app.get('/gallery', (req, res) => {
-    res.render('gallery')
-})
 
 //Get service page
 app.get('/services', (req, res) => {
