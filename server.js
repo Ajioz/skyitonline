@@ -66,7 +66,6 @@ app.get('/services', (req, res) => {
     res.render('services')
 })
 
-//Make a post
 
 
 app.post('/', (req, res) => {
