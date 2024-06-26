@@ -13,7 +13,7 @@
      <script src="https://kit.fontawesome.com/5aa9262777.js" crossorigin="anonymous"></script>
 
     <link type="text/css" rel="stylesheet" href="materialize.min.css" media="screen, projection" />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -47,15 +47,19 @@
         <p>Page not Found</p>
     </div>
     <div class="social-media">
-        <ul>
-          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="https://web.facebook.com/SkyIT-157943760991439" target="_blank"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.instagram.com/skyit_ltd/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-        </ul>
-      </div>
-  
+      <ul>
+          <li data-aos="fade-up" data-aos-delay="100"><a href="https://www.twitter.com/skyIT/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li data-aos="fade-up" data-aos-delay="320"><a href="https://web.facebook.com/SkyIT-157943760991439" target="_blank"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
+        <li data-aos="fade-up" data-aos-delay="300"><a href="https://www.instagram.com/skyit_ltd/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li data-aos="fade-up" data-aos-delay="400"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li data-aos="fade-up" data-aos-delay="500">
+          <a href="whatsapp://send?text=Hi, I'd love to know more about your service, I am reaching you from your official webpage!&phone=+2349074444140" target="_blank">
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
       <a href="#" class="to-top"><i class="fas fa-angle-double-up"></i></a>
   
       <footer id="service" class="page-footer light-blue darken-1">
@@ -104,5 +108,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="materialize.min.js"></script>
     <script src="skyit.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
 </body>
 </html>
