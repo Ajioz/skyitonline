@@ -19,6 +19,7 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen, projection" />
 
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="../../assets/vendor/aos/dist/aos.css">
     
 
 </head>
@@ -372,7 +373,7 @@
     </div>
     <section id="main-spread">
         <div class="containerz2">
-            <article id="main-col">
+            <article id="main-col" data-aos="fade-up">
                 <h1 class="page-title">About Us</h1>
 
                 <p>SkyIT is one of the ICT leading firm in Nigeria.  SkyIT has developed and implemented 
@@ -493,9 +494,19 @@
     </footer>
   <script>
     document.getElementById('date').innerHTML = new Date().getFullYear();
-  </script>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/skyit.js"></script>
+    <script src="../../assets/vendor/aos/dist/aos.js"></script>
+    <script>
+      $(document).on('ready', function () {
+        // initialization of aos
+        AOS.init({
+          duration: 650,
+          once: true
+        });
+      });
+</script>
 </body>
 </html>
