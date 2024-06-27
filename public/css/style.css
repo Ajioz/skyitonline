@@ -382,10 +382,10 @@ ul#services li {
 #clearance {
   height: 500px;
 }
-@media only screen and (max-width: 500px){
-    .clearance {
-      display: none;
-    }
+@media only screen and (max-width: 500px) {
+  .clearance {
+    display: none;
+  }
 }
 
 .content-area {
